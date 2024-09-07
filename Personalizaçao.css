@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+
+
+body{
+background-color: rgb(27, 25, 25);
+font-family: "Chakra Petch", sans-serif
+}
+.ram{
+  position: absolute;
+  top: 7%;
+  left: 47%;
+  color: brown;
+ font-size: 100px;
+}
+.acao{
+    position: absolute;
+    top: 7%;
+    left: 56%;
+    color: rgb(120, 42, 165);
+   font-size: 100px;
+}
+.prog{
+    position: absolute;
+    top: 7%;
+    left: 36%;
+    color: rgb(17, 0, 255);
+   font-size: 100px;
+}
+.Topo1{
+    color: rgb(126, 51, 51);
+    position: absolute;
+    font-size: 30px;
+    left: 620px;
+    top: 278px;
+}
+.caixa {
+    position: absolute;
+    width: 750px; 
+    height: 379px; 
+    background-color: rgb(42, 42, 53);
+    border: 1px solid black; 
+    padding: 10px; 
+    left: 590px;
+    top: 270px;
+    border-radius: 24px;
+  }
+.Texto {
+ position: absolute;
+ top: 250px;
+ left: 510px;
+}
+.html{
+ color: rgb(230, 71, 245);
+}
+.head{
+    color: rgb(230, 71, 245);
+}
+.title{
+    color: rgb(230, 71, 245);
+}
+.PrimeiroSite{
+color: rgb(145, 145, 145);
+}
+.Body{
+    color: rgb(230, 71, 245);
+}
+.P{
+    color: rgb(230, 71, 245);
+}
+.OlaMundo {
+ color: rgb(145, 145, 145)
+}
+.linha{
+        position: absolute;
+        left: 194px;
+        top: 353px;
+        font-size: 19px;
+        animation: blink 1.5s infinite;
+        color: aliceblue;
+    }
+      @keyframes blink {
+        50% { opacity: 0; }
+}
+.Linha2{
+    position: absolute;
+    left: 642px;
+    top: 805px;
+    font-size: 19px;
+    animation: blink 1.5s infinite;
+    color: aliceblue;
+}
+  @keyframes blink {
+    50% { opacity: 0; }
+}
+.caixa2 {
+    position: absolute;
+    width: 750px; 
+    height: 140px; 
+    background-color: rgb(42, 42, 53);
+    border: 1px solid black; 
+    padding: 10px; 
+    left: 590px;
+    top: 710px;
+    border-radius: 24px;
+  }
+.Topo2{
+    color: blue;
+    position: absolute;
+    font-size: 30px;
+    left: 620px;
+    top: 720px;
+}
+.BodyCss{
+ position: absolute;
+ left: 640px;
+ top: 758px;
+color: rgb(230, 71, 245);
+}
+.AberturaFechadura{
+    position: absolute;
+    left: 640px;
+    top: 758px;
+   color: white
+}
+.ColorCss{
+    position: absolute;
+    left: 670px;
+    top: 780px;
+   color: rgb(38, 196, 245);
+}
+.Finalizaçao{
+    position: absolute;
+    left: 1025px;
+    top: 780px;
+   color: rgb(255, 255, 255);
+}
+.HtmlPng{
+position: absolute;
+left:  1280px;
+top: 290px;
+width: 60px;
+}
+.CssPng{
+    position: absolute;
+    left:  1300px;
+    top: 720px;
+    width: 35px;
+}
+.typing {
+    font-size: 2rem;
+    overflow: hidden; /* Esconde o texto que ultrapassa a largura */
+    border-right: .15em solid rgb(192, 192, 192); /* Linha vertical no final do texto */
+    white-space: nowrap; /* Impede quebra de linha */
+    animation: typing 3s steps(40, end) forwards;
+    position: absolute;
+    left: 670px;
+    top : 858px;
+    color: rgb(233, 36, 36);
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 31%; }
+  }
+.Aprender{
+    position: absolute;
+    left: 300px;
+    top: 970px;
+    color: rgb(177, 177, 37);
+}
+.Exemplo{
+position: absolute;
+left: 500px;
+top: 1050px;
+width: 900px;
+}
+.Exemplo2{
+    position: absolute;
+    left: 500px;
+    top: 1550px;
+    width: 900px;
+    }
+.Github{
+width: 60px;
+position: absolute;
+left: 1258px;
+top: 113px;
+}
+.GithubTxt{
+    width: 60px;
+    position: absolute;
+    left: 1310px;
+    top: 143px;
+    color: rgb(0, 0, 0);
+}
+.caixa5{
+        position: absolute;
+        width: 900px; 
+        height: 12px; 
+        background-color: rgb(255, 0, 0);
+        border: 1px solid black; 
+        padding: 1px; 
+        left: 500px;
+        top: 1515px;
+        border-radius: 24px;
+}
+.caixa6{
+      position: absolute;
+      width: 900px; 
+      height: 12px; 
+      background-color: rgb(255, 0, 0);
+       border: 1px solid black; 
+      padding: 1px; 
+       left: 500px;
+       top: 2000px;
+       border-radius: 24px;
+}
+.TextoNormal{
+    position: absolute;
+    left: 500px;
+    top: 2050px;
+    color: brown;
+ font-size: 50px;
+}
+.TextoNormal2{
+    position: absolute;
+    left: 1280px;
+    top: 2050px;
+    color: brown;
+ font-size: 50px;
+}
+.TxtHtml{
+    position: absolute;
+    left: 1155px;
+    top: 2050px;
+    color: rgb(255, 115, 0);
+ font-size: 50px;
+}
+.TxtJS{
+    position: absolute;
+    left: 880px;
+    top: 2050px;
+    color: rgb(221, 241, 37);
+ font-size: 50px;
+}
+.TxtCss{
+    position: absolute;
+    left: 1319px;
+    top: 2050px;
+    color: rgb(58, 45, 247);
+ font-size: 50px;
+}
